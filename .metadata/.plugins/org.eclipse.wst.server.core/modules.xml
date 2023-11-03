@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:todo-application-jsp-servlet-jdbc-mysql-master"/>
+  <module moduleId="org.eclipse.jst.jee.server:web-app1" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Login-Project" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:testProj1" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:company_mailer" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Login" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:DatabaseServlet"/>
+  <module moduleId="org.eclipse.jst.jee.server:WebProject"/>
+  <module moduleId="org.eclipse.jst.jee.server:Todo" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:DemoServlet" serverId="Tomcat v10.1 Server at localhost"/>
+</modules>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [23/Aug/2023:12:51:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Aug/2023:12:51:09 +0530] "GET /WebProject/insert.html HTTP/1.1" 200 565
+0:0:0:0:0:0:0:1 - - [23/Aug/2023:12:51:16 +0530] "POST /WebProject/InsertData HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [23/Aug/2023:12:52:26 +0530] "POST /WebProject/InsertData HTTP/1.1" 404 682

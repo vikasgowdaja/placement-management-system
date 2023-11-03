@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Database Interaction Example</title>
+</head>
+<body>
+    <h1>Database Interaction Example</h1>
+    <p>This is a simple example of a web page that interacts with a MySQL database using a servlet.</p>
+    
+    <h2>Data from Database:</h2>
+    <ul>
+        <!-- The data will be dynamically populated by the servlet -->
+        <li id="dataItem">Loading data...</li>
+    </ul>
+    
+    <script>
+        // This script fetches data from the servlet and populates the list dynamically
+        fetch('/your_project_name/database') // Replace with the actual URL of your servlet
+            .then(response => response.text())
+            .then(data => {
+                const dataItem = document.getElementById('dataItem');
+                dataItem.innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
